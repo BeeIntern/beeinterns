@@ -1,4 +1,4 @@
-#beeinterns
+# beeinterns
 
 В файле validation.js, необходимо добавить проверку, что поле с именем не пустое,
 а также проверять, что логин не занят, заняты логины: beeline, beeinterns, bee.
@@ -32,6 +32,8 @@ https://youtu.be/kQu62mflbTE
 • [Условные операторы - 3](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/if...else) 
 
 • [Условные операторы - 4](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators)
+
+
 -------------------
 
 • [Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit) 
@@ -60,6 +62,15 @@ https://youtu.be/kQu62mflbTE
 • [Учебник по JS](https://learn.javascript.ru/)
 
 
+----------------------------
+`const { login, password, confirmPassword, license, firstName, secondName, lastName, gender } = data;`
 
 
+Это констркуция используется, что бы из объекта(data), взять данные из определённых полей и создать переменные с таким же названием, то есть
+const login = data.login;
+и 
+const { login } = data;
+делают одно и тоже
 
+
+Можно проверить, что в нём хранится, достаточно написать console.log(data) и в браузере нажать на отправить, тогда в консоль браузера выведется  объект с его содержимым
