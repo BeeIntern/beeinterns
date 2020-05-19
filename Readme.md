@@ -32,6 +32,8 @@
 
  ⁃ Лектор: Рома Синеоков @rsineokov
 
+RSineokov@beeline.ru
+
  ⁃ URL конференции: https://veon.zoom.us/j/979088053
 
 ------------------
