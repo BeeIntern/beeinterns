@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document.Cookie</title>
+    <style>
+        input,
+        button {
+            border: 2px solid goldenrod;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <h2>Анкета хобби</h2>
+
+    <form>
+        <label for="fname">ФИО:</label><br>
+        <input type="text" id="fname" name="fname" class="name"><br>
+        <label for="lname">Возраст:</label><br>
+        <input type="number" id="age" name="age" class="age"><br>
+        <label for="city">Город:</label><br>
+        <input type="text" id="city" name="city" class="city"><br><br>
+        <p>Я хочу получить на день рождение:</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="v1">
+        <label for="vehicle1"> велосипед </label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="v2">
+        <label for="vehicle2"> автомобиль</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" class="v3">
+        <label for="vehicle3"> лодку</label><br><br>
+
+        <button>Сохранить</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
