@@ -1,0 +1,73 @@
+Нужно создать проект с названием "Homework-npm", в авторах указать себя и добавить поле запрещающее публиковать проект.
+Установите последнюю версию пакета "ramda", также установите "date-fns" версии 1.30.1 и "nodemon" через ссылку на git репозиторий:
+https://github.com/remy/nodemon.git
+
+Создайте файл "index.js" с следующим содержимым:
+H
+Добавьте скрипт "start", который с помощью nodemon запустит данный файл.
+
+Отправлять на почту с темой: "Лекция 32: ФИО"
+
+P.S. Не забудьте, что в git не должна попасть папка с установленными модулями
+
+
+  119  npm i
+  120  cd ..
+  121  ls
+  122  cd Homework-npm/
+  123  npm i
+  124  node -v
+  125  npm -v
+  126  nvm ls
+  127  npm init
+  128  npm init -y
+  129  npm install ramda
+  130  npm install date-fns@1.30.1
+  131  git clone https://github.com/remy/nodemon.git
+  132  ls
+  133  ls
+  134  nodemon index.js
+  135  history
+  
+
+  118  cd Homework-npm/
+  119  ls
+  120  ls -la
+  121  nodemon 
+  122  history
+StudentRemoteMac:Homework-npm Student$ nodemon
+[nodemon] 2.0.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index.js`
+До конца курса осталось мало времени
+[nodemon] clean exit - waiting for changes before restart
+
+
+До конца курса осталось мало времени
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+До конца курса осталось мало времени
+
+  119  cd Homework-npm/
+  120  ls
+  121  cd nodemon
+  122  ls
+  123  test
+  124  nodemon
+  125  docker-compose up
+  126  docker build Dockerfile 
+  127  ls
+  128  npm install -g nodemon
+  129  ls
+  130  cd ..
+  131  ls
+  132  npm install git+https://github.com/remy/nodemon.git
+  133  start
+  134  start nodemon
+  135  nodemon start
+  136  history
