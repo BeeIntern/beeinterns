@@ -1,5 +1,14 @@
 function validate(data) {
-    const { login, password, confirmPassword, license, firstName, secondName, lastName, gender } = data;
+    const { 
+        login, 
+        password, 
+        confirmPassword, 
+        license, 
+        firstName, 
+        secondName, 
+        lastName, 
+        gender 
+    } = data;
 
     if (!login || !password) {
         alert('Укажите логин/пароль');
