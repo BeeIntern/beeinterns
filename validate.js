@@ -12,7 +12,9 @@ function validate(data) {
 
     if (!login || !password) {
         alert('Укажите логин/пароль');
-    } else if (login === 'beeline' || login === 'beeinterns' || login === 'bee') { 
+    } else if (login === 'beeline' || 
+               login === 'beeinterns' || 
+               login === 'bee') { 
         alert('логины заняты');
     }
     else if (password.length < 6) {
@@ -34,4 +36,3 @@ function validate(data) {
         }
     }
 }
-
