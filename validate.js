@@ -16,8 +16,7 @@ function validate(data) {
                login === 'beeinterns' || 
                login === 'bee') { 
         alert('логины заняты');
-    }
-    else if (password.length < 6) {
+    } else if (password.length < 6) {
         alert('Пароль должен быть длинной не менее 6 символов');
     } else if (password !== confirmPassword) {
         alert('Пароли должны совпадать');
@@ -29,8 +28,7 @@ function validate(data) {
         if (gender === "male") {
             let text =  `Уважаемый ${firstName} , заявка создана`;
             alert(text);
-        }
-        else {
+        } else {
             let text =  `Уважаемая ${firstName} , заявка создана`;
             alert(text);
         }
