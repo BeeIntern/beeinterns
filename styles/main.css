@@ -1,0 +1,185 @@
+/* start of 1 first main section */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.whyus {
+    background-image: url(../img/why.jpg);
+    background-size: cover;
+}
+
+.whyus_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 50px 0;
+}
+
+.whyus_advantages {
+    position: relative;
+    background-position: center;
+    background-image: url(../img/why-1.png);
+    background-repeat: no-repeat;
+    height: 170px;
+    background-size: 700px;
+}
+
+.one {
+    background-image: url(../img/why-2.png);
+}
+
+.two {
+    background-image: url(../img/why-3.png);
+}
+
+.three {
+    background-image: url(../img/why-4.png);
+}
+
+.whyus_wrapper {
+    padding-bottom: 60px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, -10%);
+    font-size: 13px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.sub-font {
+    text-transform: lowercase;
+    font-size: 12px;
+}
+
+.up-font {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.text2 {
+    position: absolute;
+    top: 44%;
+    left: 36%;
+    transform: translate(-40%, -40%);
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+/* end of 1- first main section */
+
+
+/* start of 2 second main section */
+
+.second {
+    background-image: url(../img/us.jpg);
+}
+
+.second h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.whyus_bonus {
+    padding-bottom: 60px;
+}
+
+.whyus_bonus_wrapper p {
+    color: #fff;
+    width: 400px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    border-left: white solid 1px;
+    margin-top: 40px;
+    max-height: 40px;
+    font-weight: 100;
+}
+
+.whyus_bonus_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+}
+
+.whyus_img {
+    width: 120px;
+    margin-right: 20px;
+}
+
+
+/* end of  2 second main section  */
+
+
+/* start of 3 third main section  */
+
+.third h2 {
+    color: #008000;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sostav {
+    font-size: 0.6em;
+    font-weight: normal;
+    line-height: 0px;
+}
+
+.auto {
+    width: 100%;
+    position: relative;
+}
+
+.back_block {
+    max-width: 70px;
+    width: 100%;
+    height: 200px;
+    background: #f1f1f1;
+    margin-left: 50px;
+}
+
+.auto_wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 170px;
+}
+
+.auto_block {
+    position: relative;
+}
+
+.auto_content {
+    position: absolute;
+    top: 30px;
+}
+
+.auto_block h3 {
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* end of 3 third main section */

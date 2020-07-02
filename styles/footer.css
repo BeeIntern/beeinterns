@@ -1,0 +1,61 @@
+/* start of Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.footer_wrapper {
+    min-width: 1000px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_img {
+    padding-left: 40px;
+}
+
+.copy {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.martin_right {
+    color: green;
+}
+
+.martin_down {
+    color: orange;
+    text-decoration: underline;
+}
+
+.develop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.develop p {
+    padding-right: 1px;
+    text-transform: capitalize!important;
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.landing {
+    color: orange;
+}
+
+.fresh_img {
+    width: 60px;
+}
+
+
+/* end of footer */
