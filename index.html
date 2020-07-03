@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Shopper</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="main-header">
+            <div class="main-header__logo logo">
+                <img src="image/logo.svg" />
+            </div>
+
+            <form class="main-header__search-form search-form">
+                <input type="text" class="search-form__input input" placeholder="Search for Products" />
+                <button class="search-form__btn btn btn__submit">Search</button>
+            </form>
+
+            <div class="main-header__btns">
+                <button class="main-header__log-in btn">Log in</button>
+                <button class="main-header__sign-up btn">Sign up</button>
+                <button class="main-header__short-list icon">
+            <img src="image/shortlist_icon.svg" alt="" />
+          </button>
+                <button class="main-header__cart icon">
+            <img src="image/cart_icon.svg" alt="" />
+          </button>
+            </div>
+        </div>
+
+        <div class="sub-header">
+            <ul class="sub-header__nav nav">
+                <li class="nav__el">
+                    <a class="link nav__link" href="#"> Home Decor</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Furniture</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Lighting</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Home Accents</a>
+                </li>
+                <li class="nav__el"><a class="link nav__link" href="#">Rugs</a></li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Outdoors</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Holidays</a>
+                </li>
+                <li class="nav__el"><a class="link nav__link" href="#">Gifts</a></li>
+                <li class="nav__el"><a class="link nav__link" href="#">Events</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="app">
+        <div class="app__title">Seller Application</div>
+
+        <div class="app__menu">
+            <ul class="app__nav nav">
+                <li class="nav__el">
+                    <a class="link nav__link" href="#">Application Critaria</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#"> Company Profile</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#"> Web & Social Media</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link link__active nav__link" href="#"> Contact Info</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#"> Confirm Account</a>
+                </li>
+                <li class="nav__el">
+                    <a class="link nav__link" href="#"> Confirm Account</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="app__body">
+            <div class="app-name-forms">
+                <p class="input__title">Name</p>
+                <form class="input__groupe">
+                    <input type="text" class="input" placeholder="Mr." /><input type="text" class="input" placeholder="First Name" /><input type="text" class="input" placeholder="Middle Name" /><input type="text" class="input" placeholder="Last Name"
+                    />
+                </form>
+            </div>
+
+            <form class="app__title-form">
+                <p class="input__title">Title</p>
+                <input type="text" class="input" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" />
+            </form>
+
+            <div class="app__contacts">
+                <div class="app__sub-title">
+                    <p>Business Mailing Address</p>
+                </div>
+
+                <div class="app__contact-forms">
+                    <form class="app__form">
+                        <p class="input__title">Street Address</p>
+                        <input type="text" class="input" />
+                    </form>
+
+                    <form class="app__form">
+                        <p class="input__title">Apt / Suite / Other</p>
+                        <input optype="text" class="input" />
+                    </form>
+
+                    <form class="app__form">
+                        <p class="input__title">City</p>
+                        <input type="text" class="input" />
+                    </form>
+
+                    <form class="app__form">
+                        <p class="input__title">Zip / Postal Code</p>
+                        <input type="text" class="input" />
+                    </form>
+
+                    <form class="app__form">
+                        <p class="input__title">Country</p>
+                        <select id="country" name="country" class="input">
+                <option value="Select Country">Select Country</option>
+                <option value="Russian Federation">Russia</option>
+              </select>
+                    </form>
+
+                    <form class="app__form">
+                        <p class="input__title">Phone Number</p>
+                        <input type="text" class="input" />
+                        <p class="description">
+                            To Validate your account please enter valid <br /> mobile Number to receive confirmation code
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="app__footer">
+                <button class="btn">Back</button>
+                <p class="description">
+                    By Submitting this application, you agree to the
+                    <a href="#" class="description description__link">
+              Buyer guidelines</a
+            >
+          </p>
+          <button class="btn__submit">Submit Application</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__wrap">
+        <div class="footer__links-wrap">
+          <p class="footer__title">How We Help</p>
+          <ul>
+            <li><a class="link" href="#">Retailers</a></li>
+                    <li><a class="link" href="#">Interiors Designers</a></li>
+                    <li><a class="link" href="#">Product Designers</a></li>
+                    <li><a class="link" href="#">Wholesalers / Importers</a></li>
+                    <li><a class="link" href="#">Artisans</a></li>
+                    </ul>
+            </div>
+
+            <div class="footer__links-wrap">
+                <p class="footer__title">Get to Know Us</p>
+                <ul>
+                    <li><a class="link" href="#">About</a></li>
+                    <li><a class="link" href="#">Policies</a></li>
+                    <li><a class="link" href="#">Careers</a></li>
+                    <li><a class="link" href="#">Press</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-wrap">
+                <p class="footer__title">Join the Community</p>
+                <ul>
+                    <li><a class="link" href="#">Upcoming Events</a></li>
+                    <li><a class="link" href="#">Become a Buyer</a></li>
+                    <li><a class="link" href="#">Become a Seller</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__links-wrap">
+                <p class="footer__title">Follow Us</p>
+                <ul>
+                    <li>
+                        <img src="image/fb_icon.png" alt="">
+                        <a class="link" href="#">Facebook</a></li>
+                    <li>
+                        <img src="image/pntr_icon.png" alt=""><a class="link" href="#">Pinterest</a></li>
+                    <li>
+                        <img src="image/twt_icon.png" alt=""><a class="link" href="#">Twitterr</a></li>
+                    <li>
+                        <img src="image/insta_icon.png" alt=""><a class="link" href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__terms">
+            <p class="description">Terms & Conditions&nbsp;&nbsp;&nbsp;Privacy</p>
+        </div>
+    </div>
+</body>
+
+</html>

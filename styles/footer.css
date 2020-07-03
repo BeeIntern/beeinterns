@@ -1,0 +1,46 @@
+/* start of Footer  */
+
+.footer__wrap {
+    width: 98rem;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer__links-wrap ul {
+    list-style-type: none;
+}
+
+.footer__links-wrap .link {
+    color: #1c1c1b;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.footer__links-wrap:last-child li {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links-wrap img {
+    margin-right: 7px;
+}
+
+.footer__terms {
+    margin: 0 8rem;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: #C6C6C5 solid 1.2px;
+    line-height: 25px;
+}
+
+
+/* end of Footer  */

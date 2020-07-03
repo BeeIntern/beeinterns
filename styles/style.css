@@ -1,0 +1,91 @@
+@import "/shopper/styles/header.css";
+@import "/shopper/styles/footer.css";
+@import "/shopper/styles/main-body.css";
+@import "/shopper/styles/reset.css"
+/* roboto-regular - latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin/roboto-v20-latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <---------------------REUSABLE ---------------------> */
+
+.btn {
+    padding: 1.2rem 3rem;
+    background: none;
+    color: #757575;
+    border: 1px solid #757575;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.btn__submit {
+    color: #f4f4f4;
+    background: #007aff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    font-weight: 500;
+    outline: none;
+}
+
+.icon {
+    background: none;
+    border: none;
+}
+
+.input {
+    border: 1px solid #c6c6c5;
+    border-radius: 0.5rem;
+    padding: 1.1rem 1.5rem;
+    color: #878786;
+    outline: none;
+}
+
+.input__title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.9rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.description {
+    color: #878786;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__el {
+    display: inline-block;
+}
