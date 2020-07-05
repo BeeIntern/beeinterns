@@ -1,0 +1,57 @@
+@import "./reset.css";
+@import "./sidebar.css";
+@import "./content.css";
+
+/* arimo-regular - latin */
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arimo-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Arimo Regular'), local('Arimo-Regular'), url('../fonts/arimo-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/arimo-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/arimo-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/arimo-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/arimo-v13-latin-regular.svg#Arimo') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    font-family: "Arimo", -apple-system, system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.page {
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #F6F9FF;
+}
+
+h1 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background-color: #F6F9FF;
+}
