@@ -1,57 +1,150 @@
 @import "./reset.css";
-@import "./sidebar.css";
-@import "./content.css";
 
-/* arimo-regular - latin */
-
+/* roboto-regular - latin */
 @font-face {
-    font-family: 'Arimo';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/arimo-v13-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local('Arimo Regular'), local('Arimo-Regular'), url('../fonts/arimo-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/arimo-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/arimo-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/arimo-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/arimo-v13-latin-regular.svg#Arimo') format('svg');
-    /* Legacy iOS */
-}
+    src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  * {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      line-height: 20px;
+      color: #5D5D5D;
+  }
 
-* {
-    font-family: "Arimo", -apple-system, system-ui, sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    color: #4A4A4A;
-}
+  .content {
+      width: 100%;
+      margin-bottom: 97px;
+  }
+  a {
+      color: #0179FF
+  }
 
-.page {
-    display: flex;
-    justify-content: flex-start;
-    min-height: 100vh;
-    background-color: #F6F9FF;
-}
+  h1 {
+      color: black;
+      font-size: 35px;
 
-h1 {
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+  }
 
-a {
-    text-decoration: none;
-    color: #4A4A4A;
-}
+  h2 {
+      font-size: 15px;
+      color:#5D5D5D;
+      line-height: 20px;
+      font-weight: bold;
+      padding-bottom: 10px;
+      padding-top: 10px;
+  }
+  .header {
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      margin-bottom: 30px;
+  }
+  .tabs {
+      max-width: 640px;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 
-.bold {
-    font-weight: bold;
-}
+  .tab, .tab-title {
+      display: flex;
+      flex-direction: column;
+  }
 
-body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 0;
-    background-color: #F6F9FF;
-}
+
+  .tab input[type="checkbox"] {
+      display: none;
+  }
+
+  .tab-title {
+      background: #F5F5F5;
+      padding: 15px 18px;
+      border: 1px solid #E8E8E8;
+      border-bottom: none;
+      box-sizing: border-box;
+      display: inline;
+  }
+
+  .tab-title::before {
+      content: url(../img/Shape-right.png);
+      margin: 20px 10px 20px 0;
+  }
+
+  .row {
+      position: relative;
+      list-style: none;
+  }
+
+  .row::marker {
+      display: none;
+  }
+
+  .tab-content{
+      border: 2px solid #E8E8E8;
+      padding: 10px 40px 10px 20px;
+      left: 0;
+      display: none;
+      color: #5D5D5D;
+  }
+
+  .row::before {
+      content: " ";
+      position: absolute;
+      left: -10px;
+      top: 10px;
+      border-left: 2px solid #0179FF;
+      height: auto;
+      bottom: 0;
+      width: 1px;
+  }
+
+  .tab :checked ~ .tab-title::before {
+      content: url(../img/Shape-down.png);
+      margin: 20px 6px 20px 0;
+  }
+
+  .tab :checked ~ .tab-content {
+      display: block;
+  }
+
+  .leaflet {
+      max-width: 510px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .leaflet img {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  @media (max-width: 320px) {
+    body {
+        margin: 0;
+    }
+
+    h1 {
+        margin-left: 20px;
+    }
+    .row::before {
+        left: 0;
+    }
+
+    .content {
+        width: 100vw;
+    }
+
+  }
