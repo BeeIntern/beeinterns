@@ -2,38 +2,57 @@
 ### Useful commands
 
 npm init -y
+
 npm i mocha
+
 npm i node-fetch
+
 npm i chromedriver --save-dev
+
 npm i selenium-webdriver
+
 npm install @wdio/cli
+
 npx wdio config
 
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register
+
 npm install @wdio/allure-reporter --save-dev
+
 https://webdriver.io/docs/allure-reporter.html
 
 npm i allure-commandline --save-dev
+
 ./node_modules/.bin/wdio wdio.conf.js
 
 npm i
+
 npm run report
 
 in browser
+
 jdk 8 download
+
 https://www.oracle.com/ru/java/technologies/javase/javase-jdk8-downloads.html
+
 https://login.oracle.com/mysso/signon.jsp
+
 webmaster.it.io@gmail.com
 P/:hT2=.7CF66=z
+
 jdk-8u261-windows-x64.exe
+
+Настройки Windows:
 ## Панель управления\Система и безопасность\Система
 Дополнительные параметры системы->Свойства системы->Системные переменные->Переменные среды->Системные переменные:
 JAVA_HOME
 C:\Program Files\Java\jdk1.8.0_261\
 
-
+-----------
 ./node_modules/.bin/wdio wdio.conf.js --spec ./tests/removeRestore.test.js
+
 // browser.debug();
+-----------
 
 ## Подключение Allure-report к проекту WebdriverIO
 https://www.youtube.com/watch?v=zN80NCnC4Bo&t=146s
