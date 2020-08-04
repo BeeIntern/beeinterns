@@ -9,7 +9,8 @@ class Basket extends Page {
         super.open(this.URL);
     }
     get removeButtons() {
-        return $$('//span[@data-ng-click="deleteItem(item, true)"]');
+        // return $$('//span[@data-ng-click="deleteItem(item, true)"]'); //this xpath exists but not interactive link
+        return $$('//*[@class="modify-link-after"]');
     }
     get removeMessage() {
         return $('//span[text()="Товар был удален из корзины"]');

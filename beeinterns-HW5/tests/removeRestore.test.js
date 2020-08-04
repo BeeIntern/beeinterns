@@ -40,6 +40,7 @@ describe('Удаление товара и его восстановление',
         Basket.removeMessage.waitForDisplayed();
         addStep('Появилась ли информация по удалению');
         expect(Basket.removeMessage.isDisplayed()).to.equal(true);
+        // browser.debug();
     });
 
     it('Нажать на “Восстановить”', () => {
