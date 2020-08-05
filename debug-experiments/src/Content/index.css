@@ -1,0 +1,17 @@
+.page-content {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.page-content article {
+  padding: 0 20px 20px;
+}
+
+.page-content article h3:first-child {
+  margin-top: 0;
+}
+
+.scroll-to-anchor {
+  position: relative;
+  top: -40px;
+}

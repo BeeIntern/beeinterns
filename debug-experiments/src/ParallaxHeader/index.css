@@ -1,0 +1,64 @@
+.header {
+  position: relative;
+  padding: 20px;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url("/iphone_se.jpg") #000 no-repeat center center;
+  background-size: cover;
+}
+
+.header-content {
+  max-width: 500px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.header-content h1,
+.header-content h3 {
+  display: inline-block;
+  background: #000c;
+}
+
+.header-content h1 {
+  padding: 10px 30px;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.header-content h3 {
+  padding: 5px 20px;
+  font-size: 21px;
+}
+
+.header-arrow {
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 23px);
+  width: 46px;
+  height: 46px;
+  padding: 0;
+
+  font-size: 0;
+  background: transparent;
+  border: none;
+  stroke: #fff;
+  cursor: pointer;
+
+  animation: bouncing 3s infinite;
+}
+
+@keyframes bouncing {
+  0%   { transform: translateY(0px); }
+  10%  { transform: translateY(9px); }
+  20%  { transform: translateY(0px); }
+  27%  { transform: translateY(6px); }
+  33%  { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
+}

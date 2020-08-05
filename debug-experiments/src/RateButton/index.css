@@ -1,0 +1,30 @@
+.rate-button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.rate-button:hover {
+  color: red;
+}
+
+.rate-button:hover svg {
+  stroke: red;
+}
+
+.rate-button.rated svg {
+  stroke: red;
+  fill: red;
+}
+
+.rate-button svg {
+  vertical-align: top;
+  width: 32px;
+  height: 32px;
+  margin: -5px 6px 0 0;
+  stroke: currentColor;
+  fill: none;
+}
